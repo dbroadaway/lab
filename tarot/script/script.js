@@ -24,7 +24,7 @@ function sortDeck() {
     Pentacles.forEach(addCard);
     Swords.forEach(addCard);
     Wands.forEach(addCard);
-    document.getElementById("card").innerHTML = '<img src="img/blank.png " /><figcaption>Draw A Card</figcaption>'
+    document.getElementById("card").innerHTML = '<img src="img/blank.jpg " /><figcaption>Draw A Card</figcaption>'
 }
 
 function drawCard() {
@@ -47,7 +47,7 @@ function shuffleDeck() {
     }
     deck = newDeck;
     console.log(deck);
-    document.getElementById("card").innerHTML = '<img src="img/blank.png " /><figcaption>Draw A Card</figcaption>'
+    document.getElementById("card").innerHTML = '<img src="img/blank.jpg " /><figcaption>Draw A Card</figcaption>'
 }
 
 sortDeck();

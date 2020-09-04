@@ -19,7 +19,7 @@
     <script src="script/pentacles.js"></script>
     <script src="script/swords.js"></script>
     <script src="script/wands.js"></script>
-    <script src="script/script.js"></script>
+   
     <title>Tarot Card Generator</title>
   </head>
 
@@ -28,15 +28,19 @@
       <h1>Tarot
       <nav id="mainMenu">
         <ul>
-          <li><button onclick = "displayCard()">Draw</button></li>
+          <li><button onclick="sortDeck()">Sort</button></li>
+          <li><button onclick ="shuffleDeck()">Shuffle</button></li>
+          <li><button onclick = "drawCard()">Draw</button></li>
+          
       </nav>
     </h1>
     </header>
     <main>
      
-        <figure id="card"><img src="img/blank.png" /></figure>
+        <figure id="card"></figure>
       
     
     </main>
+    <script src="script/script.js"></script>
   </body>
 </html>

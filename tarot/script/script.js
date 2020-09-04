@@ -24,39 +24,32 @@ function sortDeck() {
     Pentacles.forEach(addCard);
     Swords.forEach(addCard);
     Wands.forEach(addCard);
+    document.getElementById("card").innerHTML = '<img src="img/blank.png " /><figcaption>Draw A Card</figcaption>'
 }
 
 function drawCard() {
-    i = randomNumber(deck.length);
-    var card = deck[i];
-    deck.splice(i, 1);
+    var card = deck[0];
+    deck.splice(0, 1);
     console.log(deck.length);
-    return card;
+    console.log(card);
+    document.getElementById("card").innerHTML = '<img src="' + card.file + ' " /><figcaption>' + card.name + '</figcaption>'
 }
 
 function shuffleDeck() {
+    sortDeck();
     var i;
     var r;
     var newDeck = [];
-
     for (i = 0; i < 78; i++) {
         r = randomNumber(deck.length);
         newDeck.push(deck[r]);
         deck.splice(r, 1);
     }
-
     deck = newDeck;
-    
+    console.log(deck);
+    document.getElementById("card").innerHTML = '<img src="img/blank.png " /><figcaption>Draw A Card</figcaption>'
 }
-
-function displayCard() {
-    var card = drawCard();
-    document.getElementById("card").innerHTML = '<img src="' + card.file + ' " /><figcaption>' + card.name + '</figcaption>'
-}
-
 
 sortDeck();
-
-shuffleDeck();
 
 

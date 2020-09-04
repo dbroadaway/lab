@@ -85,7 +85,7 @@ var Chariot = {
     name : "The Chariot",
     desc : "An armored figure rides in a chariot pulled by two sphinxes. He is riding away from a city and holds a spear in his left hand.",
     number : 7,
-    file:"img/7_chariot.png",
+    file:"img/7_Chariot.png",
     meaning : "purpose, industrious, journey, control, self discipline, ambition, determination, fighting for a higher purpose",
     reverse : "reckless, headstrong, unrestrained, out of control",
     reference : "Buffy the Vampire Slayer, Princess Leia, Hermione, Harriet Tubman, Greta Thunberg",

@@ -72,23 +72,55 @@
 body {
   background-color: orange;
 }
+nav {
+  width:80%;
+  margin:auto;
+}
+button {
+  border-left:20px rgba(255,255,255,.25) solid;
+  background-color: rgba(255,255,255,.2);
+  color:#ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.2rem;
+  margin-top: 0.3rem;
+  width: 100%;
+}
+button:hover{
+  border-left:20px #6cafd9 solid;
+  background-color:rgba(255,255,255,.2);
+  color:#6cafd9;
+ 
+}
+button:focus {
+  border-left:20px #6cafd9 solid;
+  background-color:rgba(255,255,255,.15);
+  color:#6cafd9;
+
+}
+ul {
+  padding:none;
+  margin:none;
+}
+
+li {
+  width:30%;
+  padding:none;
+  margin:none;
+}
+
 
 h1 {
-  background-color: #0d0d0d;
+  background-color: #01102b;
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-h1 button {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 1.3rem;
-  text-transform: capitalize;
-  padding: 0.2rem;
-  margin-top: 0.3rem;
-  width: 6rem;
-}
+
 
 #card {
   

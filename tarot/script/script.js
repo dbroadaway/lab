@@ -1,5 +1,6 @@
 var deck = [];
 var newDeck = [];
+var cardImage = new Image();
 
 function randomNumber(max) {
     var number = Math.random() * 100;
@@ -28,11 +29,13 @@ function sortDeck() {
 }
 
 function drawCard() {
-    var card = deck[0];
-    deck.splice(0, 1);
-    console.log(deck.length);
-    console.log(card);
-    document.getElementById("card").innerHTML = '<img src="' + card.file + ' " /><figcaption>' + card.name + '</figcaption>'
+    if (deck.length != 0) {
+        var card = deck[0];
+        deck.splice(0, 1);
+        console.log(deck.length);
+        console.log(card);
+        document.getElementById("card").innerHTML = '<img src="' + card.file + ' " /><figcaption>' + card.name + '</figcaption>'
+    }
 }
 
 function shuffleDeck() {
@@ -49,7 +52,17 @@ function shuffleDeck() {
     console.log(deck);
     document.getElementById("card").innerHTML = '<img src="img/blank.jpg " /><figcaption>Draw A Card</figcaption>'
 }
+function notify(i) {
+    console.log("loaded " + deck[i].name)
+}
+function preloadDeck() {
+    for (i = 0; i < deck.length; i++) {
+        cardImage.src = deck[i].file;
+        cardImage.onload = notify(i);
+    }
+
+}
 
 sortDeck();
-
+preloadDeck();
 

@@ -29,6 +29,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+button {
+	background: transparent;
+	border:none;
+	cursor: pointer;
+}
+button:focus {
+	background-color:none;
+	outline-style: none;
+}
+button:active {
+	background-color:none;
+	cursor: default;
+}
+button:visited {
+	background-color:none;
+	cursor: default;
+}
 body {
 	line-height: 1;
 }
@@ -51,9 +69,4 @@ h1 {text-align: center;}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-body, article {
-    background-color: red;
-
 }

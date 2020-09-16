@@ -80,7 +80,7 @@ button {
   border-left:20px rgba(255,255,255,.25) solid;
   background-color: rgba(255,255,255,.2);
   color:#ffffff;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -115,7 +115,7 @@ li {
 h1 {
   background-color: #01102b;
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2rem;
   padding: 0.5rem;
 }

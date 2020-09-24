@@ -126,12 +126,4 @@ var KingPentacles = {
     reverse : 'greed, exploitation, possessiveness'
 };
 
-/*var MinorCard = {
-    name : '',
-    desc : '',
-    number : 0,
-    file: '',
-    meaning : '',
-    reverse : ''
-};*/
 var Pentacles = [AcePentacles, TwoPentacles, ThreePentacles, FourPentacles, FivePentacles, SixPentacles, SevenPentacles, EightPentacles, NinePentacles, TenPentacles, PagePentacles, KnightPentacles, QueenPentacles, KingPentacles]

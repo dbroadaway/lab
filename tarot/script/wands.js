@@ -101,37 +101,29 @@ var PageWands = {
 
 var KnightWands = {
     name : 'Knight Of Wands',
-    desc : '',
+    desc : 'An armored figure rides a horse that is rearing up on its back legs. The rider holds a wand in their left hand.  They are charging through a barren desert.  ',
     number : 12,
     file: 'img/12_KnightWands.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'courageous, rebellious, hot tempered, heroic',
+    reverse : 'reckless, impatient, volatile'
 };
 
 var QueenWands = {
     name : 'Queen of Wands',
-    desc : '',
+    desc : 'A crowned woman sits on a backless throne that is adorned with two golden lion heads. She holds a sunflower in her left hand and a wand in her right hand. Vines grow behind her. A black cat sits at her feet.',
     number : 13,
     file: 'img/13_QueenWands.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'focused, confident, self-assured, charismatic, vivacious',
+    reverse : 'demanding, jealous, vengeful, temperamental, domineering'
 };
 
 var KingWands = {
     name : 'King of Wands',
-    desc : '',
+    desc : 'A crowned man sits on a simple stone throne adorned with two golden lions.  He holds a wand in his right hand like a sceptor',
     number : 14,
     file: 'img/14_KingWands.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'vision, big picture thinking, leadership, boldness, optimism',
+    reverse : 'forceful, tyrant, ineffective'
 };
 
-/*var MinorCard = {
-    name : '',
-    desc : '',
-    number : 0,
-    file: '',
-    meaning : '',
-    reverse : ''
-};*/
 var Wands = [AceWands, TwoWands, ThreeWands, FourWands, FiveWands, SixWands, SevenWands, EightWands, NineWands, TenWands, PageWands, KnightWands, QueenWands, KingWands];

@@ -1,79 +1,8 @@
-/* Blue Shade Color Theme Swatches in Hex */
-.Арктика.-Затерянная-и-ненужная-1-hex {
-  color: #021373;
-}
-.Арктика.-Затерянная-и-ненужная-2-hex {
-  color: #020f59;
-}
-.Арктика.-Затерянная-и-ненужная-3-hex {
-  color: #033473;
-}
-.Арктика.-Затерянная-и-ненужная-4-hex {
-  color: #033f73;
-}
-.Арктика.-Затерянная-и-ненужная-5-hex {
-  color: #d9d8d7;
-}
-
-/*red-orange-pink color theme swatches in hex */
-/* Color Theme Swatches in Hex */
-.My-Color-Theme-1-hex {
-  color: #ff7414;
-}
-.My-Color-Theme-2-hex {
-  color: #e84b13;
-}
-.My-Color-Theme-3-hex {
-  color: #ff3b21;
-}
-.My-Color-Theme-4-hex {
-  color: #e81328;
-}
-.My-Color-Theme-5-hex {
-  color: #ff14a1;
-}
-
-/* Blue-Salmon*/
-/* Color Theme Swatches in Hex */
-.Voyage-Immobile-1-hex {
-  color: #a62d37;
-}
-.Voyage-Immobile-2-hex {
-  color: #d93d4a;
-}
-.Voyage-Immobile-3-hex {
-  color: #085ca6;
-}
-.Voyage-Immobile-4-hex {
-  color: #6cafd9;
-}
-.Voyage-Immobile-5-hex {
-  color: #f2884b;
-}
-
-/*Shades of Red*/
-/* Color Theme Swatches in Hex */
-.Typography-05-1-hex {
-  color: #f23005;
-}
-.Typography-05-2-hex {
-  color: #bf2604;
-}
-.Typography-05-3-hex {
-  color: #731702;
-}
-.Typography-05-4-hex {
-  color: #400d01;
-}
-.Typography-05-5-hex {
-  color: #0d0d0d;
-}
-
 body {
   background-color: orange;
 }
 nav {
-  width:80%;
+  width:95%;
   margin:auto;
 }
 button {
@@ -106,7 +35,7 @@ ul {
 }
 
 li {
-  width:30%;
+  width:20%;
   padding:none;
   margin:none;
 }
@@ -123,17 +52,29 @@ h1 {
 
 
 #card {
-  
+  width:70%;
   margin: auto;
-  width: 350px;
-  height:550px;
   text-align: center;
   
 }
-
 #card img {
     margin-top:2rem;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
   }
+#card figcaption {
+  border:1px dotted violet;
+  padding: 1rem;
+}
+
+main{
+  border:3px dotted purple;
+  height:100%;
+  display:flex;
+  
+}
+
+main div{
+  background-color: aquamarine;
+  flex: 1 1 50%;
+  border:2px dashed cadetblue;
+}

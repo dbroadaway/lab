@@ -1,7 +1,11 @@
 body {
   background-color: orange;
 }
+header{
+  display:flex;
+}
 nav {
+ 
   width:95%;
   margin:auto;
 }
@@ -30,15 +34,18 @@ button:focus {
 
 }
 ul {
+  display:flex;
   padding:none;
   margin:none;
 }
 
 li {
+  flex: 1 1 auto;
   width:20%;
   padding:none;
   margin:none;
 }
+
 
 
 h1 {
@@ -52,14 +59,14 @@ h1 {
 
 
 #card {
-  width:70%;
+  width:80%;
   margin: auto;
   text-align: center;
   
 }
 #card img {
-    margin-top:2rem;
-    width: 100%;
+    margin-top:1rem;
+   width: 70%;
   }
 #card figcaption {
   border:1px dotted violet;

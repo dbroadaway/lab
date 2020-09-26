@@ -19,26 +19,26 @@
     <script src='script/pentacles.js'></script>
     <script src='script/swords.js'></script>
     <script src='script/wands.js'></script>
-   
+    <script src='script/script.js'></script>
     <title>Tarot Card Generator</title>
   </head>
 
   <body>
     <header>
-        <h1>Tarot</h1>
+      <h1>Tarot</h1>
       <nav id='mainMenu'>
-        <ul>
-          <li><button onclick='sortDeck()'>Sort</button></li>
-          <li><button onclick ='shuffleDeck()'>Shuffle</button></li>
-          <li><button onclick = 'drawCard()'>Draw</button></li>
-          <li><button onclick="">Read</button></li>
+        
+          <button onclick='sortDeck()'>Sort</button>
+          <button onclick ='shuffleDeck()'>Shuffle</button>
+          <button onclick = 'drawCard()'>Draw</button>
+          <button onclick="">Read</button>
           
       </nav>
     
     </header>
     <main class="tarot-card">
         <div>
-        <figure id='card'></figure>
+        <figure id='card'><img src="img/blank.jpg" /></figure>
         </div>
         <div><h2>Meaning</h2><span id='meaning'>
            
@@ -47,6 +47,7 @@
             <span id = 'reverse'> </span>
         </div>
     </main>
-    <script src='script/script.js'></script>
+    <footer>&copy; Danielle Broadaway</footer>
+  
   </body>
 </html>

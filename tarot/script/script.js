@@ -64,6 +64,8 @@ function preloadDeck() {
 
 }
 
-sortDeck();
+
 preloadDeck();
+sortDeck();
+
 

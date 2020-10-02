@@ -1,0 +1,28 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 85vh 5vh;
+    grid-template-areas: 
+     "title nav-bar nav-bar"
+     "spread spread spread"
+     "footer footer footer"
+}
+
+header {
+    grid-area: title;
+}
+nav {
+grid-area: nav-bar;
+width:100%;
+display: grid;
+grid-template-columns:repeat(4, 1fr);
+}
+
+main {
+    grid-area:spread;
+    display:grid;
+    grid-template-columns: 60% 40%;
+}
+footer {
+    grid-area: footer;
+}

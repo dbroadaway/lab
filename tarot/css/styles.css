@@ -1,53 +1,27 @@
 body {
   background-color: orange;
-  display: grid;
-  grid-template-columns: 100%;
 }
 header{
   background-color:crimson;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+
 }
 nav {
-  width:95%;
   margin:auto;
 }
-
-ul {
-  padding:none;
-  margin:none;
-}
-
-li {
-  width:20%;
-  padding:none;
-  margin:none;
-}
-
-
 
 h1 {
   background-color: #01102b;
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2rem;
-  padding: 0.5rem;
+  font-size: 1.6rem;
+  height:100%;
 }
 
-main{
-
-  border:3px dotted purple;
-  display:grid;
-  grid-template-columns: 60% 40%;;
-
+nav {
+  background-color: chocolate;
+  height: 100%;
 }
 
-main div{
-  background-color: aquamarine;
-  border:2px dashed cadetblue;
- 
- 
-}
 
 footer {
 background-color: greenyellow;

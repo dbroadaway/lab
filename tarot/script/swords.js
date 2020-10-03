@@ -83,55 +83,47 @@ var NineSwords = {
 
 var TenSwords = {
     name : 'Ten Of Swords',
-    desc : '',
+    desc : 'A figure lies on a barren shore with ten swords piercing his back. A dark island is in the background against a yellow and black sky.',
     number : 10,
     file: 'img/10_Swords.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'casualty, ruin, failure, collapse, betrail',
+    reverse : 'survival, inevitable end, the bottom'
 };
 
 var PageSwords = {
     name : 'Page Of Swords',
-    desc : '',
+    desc : 'A youth stands holds an upraised sword. They stand on green hills against a sunny sky with birds in the background.',
     number : 11,
     file: 'img/11_PageSwords.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'curiosity, restlessness, alert, mental agility',
+    reverse : 'cynical, insulting, gossipy'
 };
 
 var KnightSwords = {
     name : 'Knight Of Swords',
-    desc : '',
+    desc : 'An armed figure charges across a barren plain with a sword raised up in his right arm.',
     number : 12,
     file: 'img/12_KnightSwords.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'assertive, direct, focused, ambitious',
+    reverse : 'forceful, misdirection, ruthless, misdirected'
 };
 
 var QueenSwords = {
     name : 'Queen of Swords',
-    desc : '',
+    desc : 'A crowned woman in a simple dress with long flowing hair sits on a yellow throne and holds a sword in her right hand. The throne sits on a barren mountain top with a solitary tree in the background.',
     number : 13,
     file: 'img/13_QueenSwords.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'principled, integrity, objective, perceptive',
+    reverse : 'pessimistic, harsh, bitter, unforgiving'
 };
 
 var KingSwords = {
     name : 'King of Swords',
-    desc : '',
+    desc : 'A crowned man with simple clothes sits on a plain stone throne with butterflies adorning it. He has long hair and a beard and looks directly towards the viewer. He holds a sword in his right hand. The throne sits on a barren field with a single tree in the background against a clear sky.',
     number : 14,
     file: 'img/14_KingSwords.jpg',
-    meaning : '',
-    reverse : ''
+    meaning : 'clarity, authority, direction, truth',
+    reverse : 'quiet power, inner truth, misuse of power, manipulation'
 };
 
-/*var MinorCard = {
-    name : '',
-    desc : '',
-    number : 0,
-    file:'',
-    meaning : '',
-    reverse : ''
-};*/
 var Swords = [AceSwords, TwoSwords, ThreeSwords, FourSwords, FiveSwords, SixSwords, SevenSwords, EightSwords, NineSwords, TenSwords, PageSwords, KnightSwords, QueenSwords, KingSwords];

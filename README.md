@@ -7,9 +7,12 @@ This is a series of learning projects that I am working on to learn to code and 
 
 Projected Projects include:
 
-Portfolio
-Calculator
-Quote Generator - Prayer book
-Tarot Card Spread
-Directory possibly with profile and committee assignments
-Drilldown pattern
+- Portfolio
+- Calculator
+- Quote Generator: Prayer book
+- Tarot Card Spread
+- Directory possibly with profile and committee assignments
+- Drilldown pattern
+- Quilt Pattern Generator
+- Focus tree building app like forest
+- 
